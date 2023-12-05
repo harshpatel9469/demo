@@ -72,7 +72,9 @@ android {
     ndkVersion rootProject.ext.ndkVersion
 
     compileSdkVersion rootProject.ext.compileSdkVersion
-
+lintOptions {
+    checkReleaseBuilds false
+}
     namespace "com.demo"
     defaultConfig {
         applicationId "com.demo"

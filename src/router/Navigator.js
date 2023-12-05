@@ -57,7 +57,7 @@ function TabNavigator() {
         name="Category"
         component={Category}
         options={{
-          tabBarLabel: 'Home',
+          tabBarLabel: 'Category',
           tabBarIcon: ({color, size}) => (
             <MaterialIcons name="category" color={color} size={size} />
           ),
@@ -67,7 +67,7 @@ function TabNavigator() {
         name="Favourite"
         component={Favourite}
         options={{
-          tabBarLabel: 'Home',
+          tabBarLabel: 'Favourite',
           tabBarIcon: ({color, size}) => (
             <Feather name="heart" color={color} size={size} />
           ),
@@ -77,7 +77,7 @@ function TabNavigator() {
         name="More"
         component={More}
         options={{
-          tabBarLabel: 'Home',
+          tabBarLabel: 'More',
           tabBarIcon: ({color, size}) => (
             <Entypo name="dots-three-vertical" color={color} size={size} />
           ),
